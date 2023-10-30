@@ -70,3 +70,10 @@
 .resume{
     color: red;
 }
+.skills{
+    margin-top: 20%;
+}
+img{
+    width: auto;
+    height: 20vh;
+}
