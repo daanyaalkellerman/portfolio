@@ -48,7 +48,7 @@
     height: 40vh;
     width: 20vw;
 }
-#img{
+img [logo]{
     width:14vh;
 }
 .icons a{
