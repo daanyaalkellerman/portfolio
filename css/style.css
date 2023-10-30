@@ -57,7 +57,12 @@
 .nav-item{
     width: 11vw;
 }
-
+.space{
+    margin: 48px;
+}
+.about{
+    margin-top: 5rem;
+}
 .aboutH1{
     color: red;
     font-size: 40px;
