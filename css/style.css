@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Fira Sans;
+}
+#nav{
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+#offcanvas{
+    background-color: black;
+    color: rgb(190, 0, 0);
+}
+#offcanvasNavbar{
+    background-color:rgb(190, 0, 0);
+    color: black;
+}
+#burger{
+ background-color: black;
+
+}
+#but{
+    background-color: red;
+    color: black;
+}
+#but:hover{
+    background-color: rgb(165, 2, 2);
+    border:2px solid;
+    border-color: rgb(72, 72, 72);
+}
+#body{
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+.firstSec{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+.display-3.firstH1{
+    color: red;
+    font-size: 80px;
+    text-align: left;
+}
+#myimg{
+    height: 40vh;
+    width: 20vw;
+}
+#img{
+    width:14vh;
+}
+.icons a{
+    padding: 0;
+}
+.nav-item{
+    width: 11vw;
+}
