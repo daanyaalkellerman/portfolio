@@ -57,3 +57,38 @@
 .nav-item{
     width: 11vw;
 }
+.about{
+    margin-top: 20%;
+}
+.aboutH1{
+    color: red;
+    font-size: 40px;
+}
+.thirdSec{
+    margin-top: 20%;
+}
+.resume{
+    color: red;
+}
+.skills{
+    margin-top: 20%;
+    color: red;
+}
+img{
+    width: auto;
+    height: 20vh;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col-md-4{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
