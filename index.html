@@ -87,6 +87,7 @@
   <div class="p-2 g-col-6"><br></div>
   <div class="p-2 g-col-6"><br></div>
   </div>
+  <!-- about -->
 <section class="about">
   <h1 class="aboutH1">About Me</h1>
 <div class="row aboutrow">
@@ -130,6 +131,7 @@
     </div>
 </div>
 </section>
+<!-- skills -->
 <section class="forthSec">
     <div class="container-lg mt-4 "> 
         <h1 class="skills">Skills</h1>
@@ -181,6 +183,7 @@
      </div>
    </div>
 </section>
+<!-- Projects -->
 <section>
   <h2>MY PROJECTS</h2>
   <div class="container" id="proj" >
@@ -257,6 +260,46 @@
       </div>
     </div>
   </div>
+</section>
+<!-- Contact -->
+<section class="container">
+  <div class="contact-body">
+
+    <div id="contact-form">
+    <h3 class="contact-h3">Contact us</h3>
+
+    <form id="contact-form-id" class="fcf-form-class" method="POST" action="contact-form-process.php">
+        
+        <div class="contact-form-group">
+            <label for="Name" class="contact-label">Your name</label>
+            <div class="contact-input-group">
+                <input type="text" id="Name" name="Name" class="contact-form-control" required>
+            </div>
+        </div>
+
+        <div class="contact-form-group">
+            <label for="Email" class="contact-label">Your email address</label>
+            <div class="contact-input-group">
+                <input type="email" id="Email" name="Email" class="contact-form-control" required>
+            </div>
+        </div>
+
+        <div class="contact-form-group">
+            <label for="Message" class="contact-label">Your message</label>
+            <div class="contact-input-group">
+                <textarea id="Message" name="Message" class="contact-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="contact-form-group">
+            <button type="submit" id="fcf-button" class="contact-btn contact-btn-primary contact-btn-lg contact-btn-block">Send Message</button>
+        </div>
+
+
+    </form>
+    </div>
+
+</div>
 </section>
 </div>
 </body>
