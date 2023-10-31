@@ -95,10 +95,11 @@ img{
 }
 .testimon{
     display: flex;
-    justify-content: space-between;
+    gap: 4rem;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
+    flex-wrap: wrap;
 }
 .card{
   flex-direction: column;
