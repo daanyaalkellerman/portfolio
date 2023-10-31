@@ -101,6 +101,7 @@ img{
     
 }
 .card{
+  flex-direction: column;
     position: relative;
     width: 380px;
     height: 450px;
