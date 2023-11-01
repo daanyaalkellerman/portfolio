@@ -185,6 +185,7 @@
 </section>
 <!-- Projects -->
 <section>
+  <h2 style="margin-top: 20%; color: red;">My Projects</h2>
   <div class="container" id="proj" >
     <div class="row" id="projrow">
       <div class="image">
@@ -263,41 +264,36 @@
 <!-- Contact -->
 <section class="container">
   <div class="contact-body">
-
     <div id="contact-form">
-    <h3 class="contact-h3">Contact us</h3>
-
-    <form id="contact-form-id" class="fcf-form-class" method="POST" action="contact-form-process.php">
+    <h3 class="contact-h3" style="color: red;">Contact us</h3>
+    <form id="contact-form-id" class="contact-form-class" method="POST" action="https://formspree.io/f/mgejrovj">
         
         <div class="contact-form-group">
-            <label for="Name" class="contact-label">Your name</label>
+            <label for="Name" class="contact-label">Full Name</label>
             <div class="contact-input-group">
                 <input type="text" id="Name" name="Name" class="contact-form-control" required>
             </div>
         </div>
 
         <div class="contact-form-group">
-            <label for="Email" class="contact-label">Your email address</label>
+            <label for="Email" class="contact-label">Email</label>
             <div class="contact-input-group">
                 <input type="email" id="Email" name="Email" class="contact-form-control" required>
             </div>
         </div>
 
         <div class="contact-form-group">
-            <label for="Message" class="contact-label">Your message</label>
+            <label for="Message" class="contact-label">Message</label>
             <div class="contact-input-group">
                 <textarea id="Message" name="Message" class="contact-form-control" rows="6" maxlength="3000" required></textarea>
             </div>
         </div>
 
         <div class="contact-form-group">
-            <button type="submit" id="fcf-button" class="contact-btn contact-btn-primary contact-btn-lg contact-btn-block">Send Message</button>
+            <button type="submit" id="contact-button" class="contact-btn contact-btn-primary contact-btn-lg contact-btn-block">Submit</button>
         </div>
-
-
     </form>
     </div>
-
 </div>
 </section>
 </div>
