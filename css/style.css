@@ -4,6 +4,9 @@
     font-family: Fira Sans;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 #nav{
     background-color: black;
     color: white;
@@ -45,12 +48,19 @@
     font-size: 80px;
     text-align: left;
 }
+@media (max-width: 480px) {
+    .display-3.firstH1{
+        font-size: 60px;
+    }
+    
+}
 #myimg{
     height: 40vh;
     width: 20vw;
 }
-img [logo]{
-    width:14vh;
+#navcon a img{
+    width:10vw;
+    height: 15vh;
 }
 .icons a{
     padding: 0;
@@ -59,7 +69,7 @@ img [logo]{
     width: 11vw;
 }
 .about{
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .aboutH1{
     color: red;
@@ -67,6 +77,11 @@ img [logo]{
 }
 .thirdSec{
     margin-top: 20%;
+}
+.thirdSec img{
+    width: 150px;
+    height:150px
+
 }
 .resume{
     color: red;
@@ -157,6 +172,20 @@ img{
     color: white;
     margin-top: 20px ;
     z-index: -1;
+}
+@media (max-width:300px) {
+    .card{
+        flex-direction: column;
+          position: relative;
+          width: 250px;
+          height: 300px;
+          background: red;
+          border-radius:0px ;
+          overflow: hidden;
+          box-shadow: 0 15px 35px black;
+        
+      }
+    
 }
 
 #proj{
@@ -417,5 +446,31 @@ input[type="submit"].contact-btn-block, input[type="reset"].contact-btn-block, i
 }
 
 .footer{
-    margin-top: 30%;
+    margin-top: 10%;
+}
+.back2top{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+.back2top span{
+    color: red;
+    font-size: 2rem;
+    transition: 0.2s ease-out;
+}
+
+.back2top:hover{
+    background-color: black;
+}
+.back2top:hover span{
+    transform: translateY(-4px);
 }
