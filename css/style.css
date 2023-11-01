@@ -115,8 +115,6 @@ img{
     align-items: center;
     min-height: 80vh;
     flex-wrap: wrap;
-
-    
 }
 .card{
   flex-direction: column;
