@@ -16,16 +16,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/style.css">
   </head>
-  <body id="body">
+  <body>
     <!-- NAV -->
     <header>
-    <nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/NjfWGjx4/Screenshot-2023-10-25-083226.png" id="logo"></a>
-        <button id="burger" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top p-0">
+      <div class="container-fluid p-0" id="navcon">
+    <span class="navbar-brand mb-0 h1"><img src="https://i.postimg.cc/NjfWGjx4/Screenshot-2023-10-25-083226.png" alt="kk"></span>
+        <button id="burger" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"  data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" aria-modal="true" role="dialog" style="visibility: visible;">
+        <div class="offcanvas offcanvas-top"  tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" aria-modal="true" role="dialog" style="visibility: visible;">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel" aria-modal="true">Kellerman</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -33,25 +33,25 @@
           <div id="offcanvas" class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" data-bs-dismiss="offcanvas">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="#resumee">Resume</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#testimonials">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#project">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               </ul>
             </div>
@@ -60,20 +60,18 @@
       </nav>
     </header>
 <div class="container">
-    <!-- Container for landing -->
- <section class="firstSec" style="height: 500px; display: flex;">
+ <section class="firstSec d-flex">
   <div class="row ">
       <div class="col-md-6">
           <h4>Hi my name is</h4>
           <h1 class="display-3 firstH1">Daanyaal Kellerman</h1>
           <h3 class="my-1">Aspiring Full Stack Developer</h3>
-          <a href="#" id="but" class="learn btn btn-lg my-4 px-5" style="border-radius: 0px;">Learn More</a>
+          <a href="#about" id="but" class="learn btn btn-lg my-4 px-5" style="border-radius: 0px;">Learn More</a>
           <div class="footer-bar mx-4" style="margin: 0 24px;">
                 <div class="icons">
                 <a href="#"><i class="fa fa-youtube-play" style="font-size: 20px; color: white;"></i></a>
                 <a href="#"><i class="fa fa-instagram mx-4" style="font-size: 20px; color: white;"></i></a>
-                <a href="#"><i class="fa fa-linkedin" style="font-size: 20px; color: white;"></i></a>
-                <a href="#"><i class="fa fa-github" style="font-size: 20px; color: white; margin: 3px;"></i></a>
+                <a href="https://github.com/daanyaalkellerman"><i class="fa fa-github" style="font-size: 20px; color: white;"></i></a>
                 </div>
             </div>
         </div>
@@ -82,13 +80,10 @@
       </div>
   </div>
 </section>
-<div class="space" id="about"></div>
-<div class="grid gap-0 row-gap-3">
-  <div class="p-2 g-col-6"><br></div>
-  <div class="p-2 g-col-6"><br></div>
-  </div>
+
+
   <!-- about -->
-<section class="about">
+<section class="about" id="about">
   <h1 class="aboutH1">About Me</h1>
 <div class="row aboutrow">
     <!-- add your pic -->
@@ -97,42 +92,45 @@
 </div>
 </div>
 </section>
-<section class="thirdSec row ">
-    <div>
+<section class="thirdSec row " id="resumee" >
+    <div >
     <h1 class="resume">Resume</h1>
-    <!-- add pictures -->
     <div class="col-6">
-        <img src="" alt="">
+        <img src="https://i.postimg.cc/90tqSCZ0/Logo.png" alt="">
     </div>
     <div class="col">
         <h4>September 2023 - Present Day</h4>
         <h2>Life Choices Coding Academy</h2>
-        <p></p>
+        <p>Currently a student at Life Choices Academy, to be a Fullstack Developer, the discipline, the drive, the overall good people in this academy is what made me stay for so long, i most definetly know more about coding in a month than what i learned at False Bay College</p>
     </div>
     </div>
     <div>
     <div class="col-6">
-        <img src="" alt="">
+        <img src="https://i.postimg.cc/L5Nj5mX7/False-Bay-TVET-Collegepng-1632230800.png" alt="">
     </div>
     <div class="col">
         <h4>February 2019 - May 2019</h4>
         <h2>False Bay College</h2>
-        <p></p>
+        <p>I really enjoyed my time at False Bay this is where I got my love for computers and coding in general. I made the decision to leave due to transportation. Although I was there for a short amount of time it taught me the one thing i wanted to pursue and thats coding </p>
     </div>
 </div>
 <div>
     <div class="col-6">
-        <img src="" alt="">
+        <img src="https://i.postimg.cc/gJ4xqNWL/192717.jpg" alt="">
     </div>
     <div class="col">
         <h4>2013 - 2018</h4>
         <h2>Strandfontein Secondary School</h2>
-        <p></p>
+        <p>I matriculated at Strandfontein Secondary School in 2018. My subjects were Math Lit, Geography, Biography, Business Studies, English, Afrikaans, Life Orientation</p>
     </div>
 </div>
 </section>
+<div class="grid gap-0 row-gap-3" id="skills">
+  <div class="p-2 g-col-6"><br></div>
+  <div class="p-2 g-col-6"><br></div>
+  </div>
 <!-- skills -->
-<section class="forthSec">
+<section id="forthSec">
     <div class="container-lg mt-4 "> 
         <h1 class="skills">Skills</h1>
         <!-- align items on 425 -->
@@ -144,7 +142,7 @@
     </div>
 </section> 
 <!-- Testimonials -->
-<h1 style="margin-top: 20%; color: red;">Testimonials</h1>
+<h1 style="margin-top: 20%; color: red;" id="testimonials">Testimonials</h1>
 <section class="testimon container">
   
   <div class="card row">
@@ -182,10 +180,26 @@
        </div>
      </div>
    </div>
+   <div class="card row">
+    <div class="poster">
+     <img src="/images/images/logo_429x991-262x60.png" alt="">
+     </div>
+    <div class="details">
+      <h3>Joel</h3>
+      <div class="info">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       </div>
+     </div>
+     
+   </div>
 </section>
+<div class="grid gap-0 row-gap-3" id="project">
+  <div class="p-2 g-col-6"><br></div>
+  <div class="p-2 g-col-6"><br></div>
+  </div>
 <!-- Projects -->
-<section style="margin-top: -5%;">
-  <h2 style="margin-top: 10%; color: red; margin-bottom: 10%;">My Projects</h2>
+<section class="projsect">
+  <h2 class="projh2">My Projects</h2>
   <div class="container" id="proj" >
     <div class="row" id="projrow">
       <div class="image">
@@ -262,7 +276,7 @@
   </div>
 </section>
 <!-- Contact -->
-<section class="container">
+<section class="container" id="contact">
   <div class="contact-body">
     <div id="contact-form">
     <h3 class="contact-h3" style="color: red;">Contact us</h3>
@@ -306,14 +320,17 @@
         <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
       </div>
   
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex" style="color: white;">
+        <a href="#"><i class="fa fa-youtube-play" style="font-size: 20px; color: white;"></i></a>
+        <a href="#"><i class="fa fa-instagram mx-4" style="font-size: 20px; color: white;"></i></a>
+        <a href="https://github.com/daanyaalkellerman"><i class="fa fa-github" style="font-size: 20px; color: white;"></i></a>
       </ul>
     </footer>
   </div>
 </section>
+<a href="#" class="back2top">
+  <span class="backtotopicon"><i class="fa fa-arrow-up"></i></span>
+</a>
 </div>
 </body>
 </html>
