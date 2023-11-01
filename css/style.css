@@ -94,20 +94,20 @@ img{
     align-items: center;
 }
 .testimon{
-        display: flex;
-        gap: 4rem;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        flex-wrap: wrap;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-wrap: wrap;
 }
 .card{
   flex-direction: column;
     position: relative;
     width: 380px;
-    height: 450px;
+    height: 400px;
     background: red;
-    border-radius:20px ;
+    border-radius:0px ;
     overflow: hidden;
     box-shadow: 0 15px 35px black;
     
@@ -124,7 +124,7 @@ img{
     width: 100%;
     height: 100%;
     background: linear-gradient(0deg white 50%, transparent);
-    transition: 0.5s;
+    transition: 3s;
     z-index: 1;
 
 }
@@ -279,13 +279,13 @@ img{
 
 .contact-body {
     margin: 0;
-    font-family: -apple-system, Arial, sans-serif;
+    margin-top: 20%;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: white;
     text-align: left;
-    background-color: #fff;
+    background-color: black;
     padding: 30px;
     padding-bottom: 10px;
     border: 1px solid #ced4da;
@@ -315,16 +315,16 @@ img{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
+    color: black;
+    background-color: white;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid red;
     outline: none;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.fcontact-form-control:focus {
+.contact-form-control:focus {
     border: 1px solid #313131;
 }
 
@@ -333,7 +333,6 @@ select.contact-form-control[size], select.contact-form-control[multiple] {
 }
 
 textarea.contact-form-control {
-    font-family: -apple-system, Arial, sans-serif;
     height: auto;
 }
 
@@ -342,26 +341,10 @@ label.contact-label {
     margin-bottom: 0.5rem;
 }
 
-.contact-credit {
-    padding-top: 10px;
-    font-size: 0.9rem;
-    color: #545b62;
-}
-
-.contact-credit a {
-    color: #545b62;
-    text-decoration: underline;
-}
-
-.contact-credit a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}
-
 .contact-btn {
     display: inline-block;
     font-weight: 400;
-    color: #212529;
+    color: red;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -385,7 +368,7 @@ label.contact-label {
 }
 
 .contact-btn:hover {
-    color: #212529;
+    color: white;
     text-decoration: none;
 }
 
@@ -395,21 +378,21 @@ label.contact-label {
 }
 
 .contact-btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color: black;
+    background-color: whitesmoke;
+    border-color: red;
 }
 .contact-btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: red;
+    border-color: white;
 }
 
 .contact-btn-primary:focus, .contact-btn-primary.focus {
-    color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+    color: black;
+    background-color: white;
+    border-color: red ;
+    box-shadow: 0 0 0 0.2rem rgba(255, 38, 38, 0.5);
 }
 
 .contact-btn-lg, .contact-btn-group-lg>.contact-btn {
@@ -429,4 +412,8 @@ label.contact-label {
 
 input[type="submit"].contact-btn-block, input[type="reset"].contact-btn-block, input[type="button"].contact-btn-block {
     width: 100%;
+}
+
+.footer{
+    margin-top: 30%;
 }
