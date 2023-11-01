@@ -1,7 +1,8 @@
 *{
     margin: 0;
+
     padding: 0;
-    font-family: Fira Sans;
+    font-family: Outfit;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -46,8 +47,9 @@ body{
     overflow-x: hidden;
 }
 .firstSec{
+    border: 2px solid white;
     height: 500px;
-    margin-top: 5rem;
+    margin-top: 15rem;
     display: flex;
     align-items: center;
 }
@@ -74,7 +76,7 @@ body{
     padding: 0;
 }
 .nav-item{
-    width: 15vw;
+    width: 10vw;
     height: 5vh;
 }
 .about{
@@ -122,6 +124,10 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#testimonials{
+    margin-top: 20%;
+    color: red;
 }
 .testimon{
     display: flex;
@@ -211,6 +217,7 @@ img{
 #proj{
     margin: 0px;
     padding: 0;
+    justify-content: center;
 }
 #projrow{
     width: 100%;
@@ -466,12 +473,16 @@ input[type="submit"].contact-btn-block, input[type="reset"].contact-btn-block, i
     width: 100%;
 }
 
-.footer{
+.footer ul a{
     margin-top: 10%;
+    font-size: 20px; 
+    color: white;
 }
 .footer-bar{
     margin: 0 24px;
 }
+
+
 .back2top{
     position: fixed;
     bottom: 2rem;
