@@ -32,9 +32,9 @@
   color: rgb(5, 5, 5);
 }
 #but:hover {
-  background-color: rgb(179, 1, 1);
-  border: 2px solid;
-  border-color: rgb(72, 72, 72);
+  background-color: rgb(255, 0, 0);
+  border: 1px solid;
+  border-color: rgb(255, 255, 255);
 }
 body {
   background: rgb(5, 5, 5);
@@ -56,6 +56,7 @@ body {
   font-size: 80px;
   text-align: left;
 }
+
 .myimg [alt="DK"] {
     height: 50vh;
     width: 100%;
@@ -69,6 +70,11 @@ body {
   font-size: 20px;
   color: rgb(196, 195, 195);
 }
+
+.icons a:hover {
+  color: rgb(255, 0, 0);
+}
+
 .nav-item a{
   width: 10vw;
   height: 5vh;
@@ -81,6 +87,9 @@ body {
 .aboutH1 {
   color: rgb(179, 1, 1);
   font-size: 50px;
+}
+#aboutme{
+  border: 2px solid rgb(179, 1, 1);
 }
 .thirdSec {
   margin-top: 5%;
@@ -116,6 +125,14 @@ img {
   width: auto;
   height: 20vh;
 }
+.skilly:hover {
+  width: auto;
+  height: 21vh;
+  transition: 0.5s;
+  border-radius: 10px;
+  box-shadow: 0 7px 15px rgba(177, 177, 177, 1.5);
+  transform: scale(1.1);
+}
 .content {
     width: 100%;
   height: 100%;
@@ -131,6 +148,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgb(179, 1, 1);
 }
 #testimonials {
   color: rgb(179, 1, 1);
@@ -147,6 +165,9 @@ img {
 }
 .testname{
   color: white;
+}
+.testname1{
+  color: red;
 }
 .card {
   flex-direction: column;
@@ -198,11 +219,9 @@ img {
 .card:hover .details {
     bottom: 10px;
 }
-.card .details .logo {
-  max-width: 180px;
-}
+
 .card .details .info {
-    color:red;
+    color:white;
     margin-top: 20px;
   z-index: 1;
 }
@@ -338,7 +357,7 @@ img {
     .cards:hover::before {
         opacity: 1;
     }
-    .cards .date {
+    .cards .mine {
         position: relative;
         color: rgb(177, 177, 177);
         opacity: 0;
@@ -347,7 +366,7 @@ img {
         z-index: 3;
     }
     
-    .cards:hover .date {
+    .cards:hover .mine {
       opacity: 1;
       transform: translateY(0px);
     }
@@ -399,7 +418,7 @@ img {
         border-radius: 0;
     }
   
-    .bo {
+    .cee {
         width: 100%;
         height: 100%;
         text-align: center;
@@ -416,7 +435,7 @@ img {
         overflow: hidden;
     }
     
-    .date {
+    .mine {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -618,23 +637,14 @@ footer{
 .back2top:hover span {
     transform: translateY(-4px);
 }
-/* @media (max-width: 300px) {
-    .card {
-      flex-direction: column;
-      position: relative;
-      width: 250px;
-      height: 300px;
-      background: rgb(179, 1, 1);
-      border-radius: 0px;
-      overflow: hidden;
-      box-shadow: 0 15px 35px rgb(5, 5, 5);
-  }
-  } */
+
 @media (prefers-reduced-motion: reduce) {
     .contact-btn {
         transition: none;
     }
 }
+
+
 @media (max-width: 480px) {
   .myimg [alt="DK"]{
     margin-bottom: 15%;
@@ -647,15 +657,21 @@ footer{
     .display-3.firstH1 {
         font-size: 40px;
     }
+    .firstH4{
+      font-size: 20px;
+    }
     #navcon span [alt="kk"] {
         width: 30vw;
         height: 10vh;
     }
+    .card{
+      height: 300px;
+    }
     .card .details {
       position: absolute;
-      bottom: -180px;
+      bottom: -150px;
       left: 0;
-      padding: 20px;
+      padding: 10px;
       width: 100%;
       z-index: 2;
       transition: 0.5s;
@@ -679,10 +695,17 @@ footer{
     }
  
 }
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .firstSec{
     margin-top: 20%;
   }
+  .display-3.firstH1 {
+    color: rgb(179, 1, 1);
+    font-size: 60px;
+    text-align: left;
+  }
+  
+
   .myimg[alt="DK"]{
     width: 100%;
     height: 100%;
