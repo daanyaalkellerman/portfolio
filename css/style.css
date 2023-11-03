@@ -217,7 +217,7 @@ img {
   max-width: 180px;
 }
 .card .details .info {
-    color:red;
+    color:white;
     margin-top: 20px;
   z-index: 1;
 }
